@@ -1,0 +1,26 @@
+.listuser-container li a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.listuser-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.listuser-icon {
+    margin-right: 10px;
+    font-size: 30px;
+    color: var(--primary-color-dark);
+}
+
+.listuser-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-text);
+}
+

@@ -1,14 +1,17 @@
 import React from "react";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import "./Home.css";
+import { Topbar, Sidebar, Feed, Rightbar } from "../../../components";
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-            <FavoriteIcon />
-            <ThumbUpIcon />
-        </div>
+        <React.Fragment>
+            <Topbar />
+            <div className="home-container container">
+                <Sidebar />
+                <Feed />
+                <Rightbar />
+            </div>
+        </React.Fragment>
     );
 };
 
