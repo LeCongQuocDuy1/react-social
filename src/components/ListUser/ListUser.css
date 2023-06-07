@@ -1,7 +1,13 @@
 .listuser-container li a {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    padding: 8px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.listuser-container li a:hover {
+    background-color: var(--bg-color-dark);
 }
 
 .listuser-img {
@@ -24,3 +30,17 @@
     color: var(--primary-text);
 }
 
+.listuser-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.listuser-span-icon {
+    font-weight: bold;
+}

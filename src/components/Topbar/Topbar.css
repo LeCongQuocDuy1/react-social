@@ -29,7 +29,7 @@
     width: 240px;
     display: flex;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-light);
     border-radius: 36px;
     padding: 8px 10px;
 }
@@ -113,7 +113,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-dark);
 }
 
 .topbar-right-lists li::before {

@@ -48,6 +48,17 @@ const ListUser = () => {
                     <p className="listuser-text">Watch</p>
                 </a>
             </li>
+            <li>
+                <a href="/">
+                    <span className="listuser-span">
+                        <Icon
+                            icon="icon-park:down"
+                            className="listuser-span-icon"
+                        />
+                    </span>
+                    <p className="listuser-text">Xem thêm</p>
+                </a>
+            </li>
         </ul>
     );
 };

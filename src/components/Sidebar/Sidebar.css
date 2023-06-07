@@ -1,0 +1,16 @@
+.sidebar-container {
+    width: 289px;
+    overflow-y: scroll;
+}
+
+.sidebar-head {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar-bottom-title {
+    padding: 15px 10px 10px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--secondary-text);
+}

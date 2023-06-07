@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <React.Fragment>
             <Topbar />
-            <div className="home-container container">
+            <div className="home-container">
                 <Sidebar />
                 <Feed />
                 <Rightbar />
