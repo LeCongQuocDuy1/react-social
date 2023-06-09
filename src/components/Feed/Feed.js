@@ -2,6 +2,7 @@ import React from "react";
 import "./Feed.css";
 import CreatePost from "../CreatePost/CreatePost";
 import PostItem from "../PostItem/PostItem";
+import { posts } from "../../ultils/PostDatas";
 
 const Feed = () => {
     return (
@@ -10,9 +11,11 @@ const Feed = () => {
                 <div className="feed-item">
                     <CreatePost />
                 </div>
-                <div className="feed-item">
-                    <PostItem />
-                </div>
+                {posts.map((item) => (
+                    <div className="feed-item" key={item.id}>
+                        <PostItem posts={item} />
+                    </div>
+                ))}
             </div>
         </div>
     );

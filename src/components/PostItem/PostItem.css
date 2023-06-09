@@ -1,17 +1,10 @@
-.post-container {
-
-}
-
-.post-head {
-
-}
-
 .post-content-text {
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.4;
     color: var(--primary-text);
     font-weight: normal;
+    padding: 0 16px;
 }
 
 .post-content-head {
@@ -19,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    padding: 0 16px;
 }
 
 .post-infors {
@@ -81,9 +75,104 @@
     margin-left: 4px;
 }
 
-.post-content-img {
-}
-
 .post-content-img img {
     width: 100%;
+}
+
+.post-bottom {
+    padding: 6px 12px 6px 10px;
+}
+
+.post-bottom p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.post-bottom-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-bottom-reactions {
+    display: flex;
+    align-items: center;
+}
+
+.post-reactions-icons img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 2px solid var(--light-color);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.post-reactions-numbers {
+    font-size: 15px;
+    color: var(--secondary-text);
+    margin-left: 5px;
+}
+
+.post-reactions-icons img:first-child {
+    position: relative;
+    left: 4px;
+}
+
+.post-bottom-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.post-options {
+    font-size: 15px;
+    color: var(--secondary-text);
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.post-options-icon {
+    font-size: 24px;
+
+}
+
+.post-bottom-footer {
+    padding-top: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.post-footer-item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-footer-item:hover {
+    background-color: var(--bg-color-light);
+}
+
+.post-footer-item:first-child {
+    align-items: flex-end;
+}
+
+.post-footer-item p {
+    font-size: 16px;
+    color: var(--secondary-text);
+    text-decoration: none !important;
+}
+
+.post-footer-icon {
+    font-size: 24px;
+    color: var(--secondary-text);
+    margin-right: 3px;
 }

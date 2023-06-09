@@ -1,3 +1,7 @@
+.listuser-container {
+    width: 100%;
+}
+
 .listuser-container li a {
     display: flex;
     align-items: center;
