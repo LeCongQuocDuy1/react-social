@@ -1,0 +1,18 @@
+.feed-container {
+    flex: 6.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-content {
+    width: 500px;
+}
+
+.feed-item {
+    padding: 12px 16px 6px 16px;
+    background-color: var(--light-color);
+    border-radius: 7px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}

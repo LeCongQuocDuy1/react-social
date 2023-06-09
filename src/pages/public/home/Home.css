@@ -9,6 +9,8 @@
     --primary-text: #050505;
     --secondary-text: #65676B;
     --notification-badge: #e41e3f;
+    --bg-scrollbar-color: #f1f1f1;
+    --bg-scrollbar-thumb: #b3b3b3;
     --shadow-primary: 0px 1px 5px rgba(52, 72, 84, 0.2);
 }
 
@@ -29,6 +31,12 @@ button, input, select, textarea {
     padding: 0 16px;
 }
 
+.title {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--secondary-text);
+}
+
 .avatar {
     width: 40px;
     height: 40px;
@@ -43,6 +51,7 @@ button, input, select, textarea {
 .home-container {
     padding: 0 10px;
     display: flex;
+    align-items: flex-start;
     padding-top: calc(var(--top-bar-height) + 20px);
     background-color: var(--bg-color-light);
 }

@@ -3,12 +3,13 @@
     left: 0;
     right: 0;
     top: 0;
-    height: var(--top-bar-height);
-    background-color: var(--light-color);
+    z-index: 1;
     box-shadow: var(--shadow-primary);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: var(--top-bar-height);
+    background-color: var(--light-color);
 }
 
 .topbar-left {
@@ -113,7 +114,12 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
+    background-color: var(--bg-color-light);
+}
+
+.topbar-right-lists li:hover {
     background-color: var(--bg-color-dark);
+    cursor: pointer;
 }
 
 .topbar-right-lists li::before {
