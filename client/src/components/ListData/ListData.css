@@ -1,0 +1,50 @@
+.listuser-container {
+    width: 100%;
+}
+
+.listuser-container li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.listuser-container li a:hover {
+    background-color: var(--bg-color-dark);
+}
+
+.listuser-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.listuser-icon {
+    margin-right: 10px;
+    font-size: 30px;
+    color: var(--primary-color-dark);
+}
+
+.listuser-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-text);
+}
+
+.listuser-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.listuser-span-icon {
+    font-weight: bold;
+}

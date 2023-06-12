@@ -1,0 +1,47 @@
+.rightbar-container {
+    flex: 2.5;
+    height: calc(100vh - 30px);
+    overflow-y: scroll;
+}
+
+.rightbar-item {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.rightbar-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rightbar-item-head p {
+    margin-bottom: 10px;
+}
+
+.rightbar-item-content {
+    display: flex;
+    align-items: center;
+}
+
+.rightbar-head-icon {
+    font-size: 24px;
+    margin: 0 12px;
+    color: var(--secondary-text);
+}
+
+.right-group-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right-group-icon {
+    padding: 4px;
+    border-radius: 100%;
+    background-color: var(--bg-color-dark);
+    font-size: 28px;
+    color: var(--secondary-text);
+}

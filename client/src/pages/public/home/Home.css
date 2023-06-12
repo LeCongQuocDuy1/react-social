@@ -1,0 +1,59 @@
+:root {
+    --light-color: #fff;
+    --dark-color: #000;
+    --top-bar-height: 56px;
+    --bg-color-light: #F0F2F5;
+    --bg-color-dark: #e4e6eb;
+    --primary-color-dark: #1b74e4;
+    --primary-color-light: #267ef3;
+    --primary-text: #050505;
+    --secondary-text: #65676B;
+    --notification-badge: #e41e3f;
+    --bg-scrollbar-color: #f1f1f1;
+    --bg-scrollbar-thumb: #b3b3b3;
+    --shadow-primary: 0px 1px 5px rgba(52, 72, 84, 0.2);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, input, select, textarea {
+    border: none;
+    outline: none;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--secondary-text);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.home-container {
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: calc(var(--top-bar-height) + 20px);
+    background-color: var(--bg-color-light);
+}
+
+

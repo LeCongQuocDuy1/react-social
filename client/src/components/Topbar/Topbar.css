@@ -1,0 +1,145 @@
+.topbar-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    box-shadow: var(--shadow-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--top-bar-height);
+    background-color: var(--light-color);
+}
+
+.topbar-left {
+    height: 100%;
+    display: flex;
+    width: 320px;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.search-bar {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color-light);
+    border-radius: 36px;
+    padding: 8px 10px;
+}
+
+.search-bar input {
+    background-color: var(--bg-color);
+    font-size: 15px;
+    color: var(--primary-text);
+}
+
+.search-bar-icon {
+    margin-right: 5px;
+    color: var(--secondary-text);
+}
+
+.topbar-center {
+    height: 100%;
+    width: 700px;
+}
+
+.topbar-center-lists {
+    display: flex;
+    gap: 8px;
+    height: 100%;
+    align-items: center;
+}
+
+.topbar-center-lists li a {
+    position: relative;
+    display: block;
+    border-radius: 8px;
+    padding: 5px 38px;
+    height: 100%;
+    color: var(--secondary-text);
+}
+
+.topbar-center-lists li a.active {
+    color: var(--primary-color-dark);
+}
+
+.topbar-center-lists li a:hover {
+    background-color: var(--bg-color);
+}
+
+.topbar-center-lists li a.active::before {
+    display: block;
+}
+
+.topbar-center-lists li a::before {
+    display: none;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary-color-dark);
+}
+
+.topbar-center-icon {
+    font-size: 35px;
+}
+
+.topbar-right {
+    height: 100%;
+}
+
+.topbar-right-lists {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+}
+
+.topbar-right-lists li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: var(--bg-color-light);
+}
+
+.topbar-right-lists li:hover {
+    background-color: var(--bg-color-dark);
+    cursor: pointer;
+}
+
+.topbar-right-lists li::before {
+    content: "1";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: -5px;
+    right: -4px;
+    background-color: var(--notification-badge);
+    color: var(--light-color);
+    border-radius: 100%;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.top-right-icon {
+    font-size: 24px;
+}
+

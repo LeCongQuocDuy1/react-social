@@ -1,0 +1,76 @@
+.createpost-head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    border-bottom: 1px solid var(--bg-color-dark);
+}
+
+.createpost-head img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.createpost-head input {
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color-light);
+    border-radius: 36px;
+    padding: 0 12px;
+}
+
+.createpost-head input:hover {
+    background-color: var(--bg-color-dark);
+    cursor: pointer;
+}
+
+.createpost-bottom {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createpost-bottom-item {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.createpost-bottom-item:hover {
+    background-color: var(--bg-color-light);
+    cursor: pointer;
+}
+
+.createpost-bottom-item p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-text);
+}
+
+.createpost-bottom-icon {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.createpost-bottom-item.item-video {
+    color: red;
+}
+
+.createpost-bottom-item.item-image {
+    color: green;
+}
+
+.createpost-bottom-item.item-react {
+    color: orange;
+}
+
+
+
+
